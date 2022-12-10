@@ -1,0 +1,16 @@
+.section_1, footer{
+    background-color: #1f2937;
+    color:#e5e7eb;
+}
+
+.header_container{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.link_container{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
