@@ -3,14 +3,34 @@
     color:#e5e7eb;
 }
 
-.header_container{
+.header_container,.main_imp, .link_container{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
 }
 
-.link_container{
-    display:flex;
-    justify-content: space-between;
-    flex-direction: row;
+.main_sub{
+    width: 80%;
+}
+
+.text{
+    flex:3;
+}
+
+.main_imp .sky{
+    flex:auto;
+    align-self: center;
+}
+
+button{
+    background-color:#3882f6;
+}
+
+.section_3{
+    background-color: #E5E7EB;
+    color: 36px light italic #1f2937;
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    margin: auto;
 }
