@@ -1,12 +1,18 @@
 .section_1, footer{
     background-color: #1f2937;
     color:#e5e7eb;
+    padding: 1px;
+    margin: 2px auto;
 }
+
 
 .header_container,.main_imp, .link_container{
     display:flex;
     justify-content: space-around;
     flex-direction: row;
+    padding: 5px;
+    margin: 5px;
+    align-items: center;
 }
 
 .main_sub{
@@ -26,11 +32,102 @@ button{
     background-color:#3882f6;
 }
 
-.section_3{
+.img_layout{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    justify-content: space-around;
+}
+
+.px_2{
+    border: 1px solid rgba(20, 20, 251, 0.8);
+    border-radius: 10px;
+}
+
+h2{
+    text-align: center;
+}
+
+.subtext{
+    flex-wrap:wrap;
+    width: 102px;
+    text-align: center;
+    
+}
+
+.text_layout{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    justify-content: space-around;
+}
+
+
+.section_3{ /*quote section*/
     background-color: #E5E7EB;
-    color: 36px light italic #1f2937;
+    color: 36px light #1f2937;
+    font-style: italic;
     display: flex;
     flex-direction: column;
+    width: 100%;
     padding: auto;
-    margin: auto;
+    margin: 0px;
 }
+
+.section_3 > .quote{
+    flex:1;
+    text-align: justify;
+    justify-content:center;
+    align-items: center;
+    padding: 15px;
+    width: 50%;
+    margin: auto;
+    font-size: 20px; 
+}
+
+
+.quote_name{
+    text-align:right;
+    font-weight: 900;
+    margin-right: 25%;
+}
+
+hr{
+    border: 1px solid #E5E7EB;
+}
+
+.header_link{
+    margin-right:10px;
+}
+
+.section_4{ /*call for action*/
+    display:flex;
+    background-color: #3882f6;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #4090ff;
+    padding: 4px 10px;
+    margin: 10px;
+    width: 70%;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.strong_header{
+    font-size: 20px;
+    font-weight: 700;
+    align-items: center;
+    flex:2;
+}
+
+.section_4 > .action_button{
+    /*align-self: flex-end;*/
+    align-items: center;
+    height: 70%;
+    flex:1;
+}
+
+.section_4 > .text{
+    flex:0;
+}
+
